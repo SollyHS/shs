@@ -76,7 +76,7 @@ border-radius: 2px;
     transform: translateY(-50%);
 }
 
-.cta-button {
+.cta-button, section a:hover { {
     background-color: #0056b3;
     color: #fff;
     padding: 10px 20px;
@@ -88,22 +88,13 @@ section {
     padding: 50px 20px;
     text-align: center;
 }
-/*section a, section a p {
+section a, section a p {
 padding: 4px 8px;
 margin: 4px;
 text-decoration: none;
 color: inherit;
 
 }
-
-section a:hover {
-padding: 4px 8px;
-margin: 4px;
-color: white;
-border-width: 2px;
-border-color: #0056b3;
-border-radius: 2px;
-}*/
 
 .service, .service-detail, .gallery-item, blockquote, form {
     margin-bottom: 20px;
@@ -114,7 +105,7 @@ margin: 10px 20px;
 
 }
 
-.service-home, section a, section a p {
+.service-home {
 background-color: #f9f9f9;
 padding: 2px;
 margin: 4px 2px;
