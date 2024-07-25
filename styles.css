@@ -6,11 +6,15 @@ body {
     background-color: #fffff4;
 }
 
+/*======= header ======*/
+
 header {
     background-color: #0056b3;
     color: white;
     padding: 10px 0;
 }
+
+/*======= nav ======*/
 
 nav ul {
     list-style: none;
@@ -37,6 +41,9 @@ padding: 2px;
 border-radius: 2px;
 }
 
+/*======= hero section ======*/
+
+}
 #hero {
     position: relative;
     height: 100vh;
@@ -69,6 +76,13 @@ border-radius: 2px;
     25%, 95% { opacity: 0; }
 }
 
+@media only screen and (max-width: 767px) {
+    .hero {
+        background-image: url('Images/kitchen1.jpg');
+        width: 100%; /* Set the image to be fully responsive on mobile devices */
+    }
+}
+
 .hero-content {
     position: relative;
     z-index: 1;
@@ -84,6 +98,7 @@ border-radius: 2px;
     border-radius: 5px;
 }
 
+/*======= sections ======*/
 section {
     padding: 50px 20px;
     text-align: center;
@@ -94,6 +109,8 @@ margin: 4px;
 text-decoration: none;
 color: inherit;
 }
+
+/*======= services ======*/
 
 .service, .service-detail, .gallery-item, blockquote, form {
     margin-bottom: 20px;
@@ -122,6 +139,13 @@ border-radius: 15px;
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+    .gallery-item img {
+        width: 100%; /* Set the image to be fully responsive on mobile devices */
+    }
+}
+
+/*======= form ======*/
 
 form {
     display: flex;
@@ -156,6 +180,8 @@ form button {
 form button:hover {
     background-color: #003f8a;
 }
+
+/*======= footer ======*/
 
 footer {
     background-color: #0056b3;
