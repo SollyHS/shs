@@ -76,7 +76,7 @@ border-radius: 2px;
     transform: translateY(-50%);
 }
 
-.cta-button, section a:hover { {
+.cta-button, section a:hover {
     background-color: #0056b3;
     color: #fff;
     padding: 10px 20px;
@@ -93,7 +93,6 @@ padding: 4px 8px;
 margin: 4px;
 text-decoration: none;
 color: inherit;
-
 }
 
 .service, .service-detail, .gallery-item, blockquote, form {
