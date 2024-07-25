@@ -96,13 +96,14 @@ color: inherit;
 
 }
 
-section a:hover {
+/*section a:hover {
 padding: 4px 8px;
 margin: 4px;
 color: white;
-background-color: #0056b3;
+border-width: 2px;
+border-color: #0056b3;
 border-radius: 2px;
-}
+}*/
 
 .service, .service-detail, .gallery-item, blockquote, form {
     margin-bottom: 20px;
@@ -113,7 +114,7 @@ margin: 10px 20px;
 
 }
 
-.service-home {
+.service-home, section a:hover {
 background-color: #f9f9f9;
 padding: 2px;
 margin: 4px 2px;
