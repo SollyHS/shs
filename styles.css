@@ -76,7 +76,7 @@ border-radius: 2px;
     transform: translateY(-50%);
 }
 
-.cta-button, section a:hover {
+.cta-button {
     background-color: #0056b3;
     color: #fff;
     padding: 10px 20px;
