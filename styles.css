@@ -3,18 +3,14 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fffff4;
+    background-color: #f3f3f3;
 }
-
-/*======= header ======*/
 
 header {
     background-color: #0056b3;
     color: white;
     padding: 10px 0;
 }
-
-/*======= nav ======*/
 
 nav ul {
     list-style: none;
@@ -25,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 13px;
 }
 
 nav ul li a {
@@ -41,9 +37,6 @@ padding: 2px;
 border-radius: 2px;
 }
 
-/*======= hero section ======*/
-
-}
 #hero {
     position: relative;
     height: 100vh;
@@ -68,7 +61,7 @@ border-radius: 2px;
     height: 100%;
     background-size: cover;
     background-position: center;
-    animation: slideAnimation 15s infinite;
+    animation: slideAnimation 5s infinite;
 }
 
 @keyframes slideAnimation {
@@ -91,7 +84,8 @@ border-radius: 2px;
     border-radius: 5px;
 }
 
-/*======= sections ======*/
+/*  ---  SECTION  ---  */
+
 section {
     padding: 50px 20px;
     text-align: center;
@@ -101,22 +95,34 @@ padding: 4px 8px;
 margin: 4px;
 text-decoration: none;
 color: inherit;
+
 }
 
-/*======= services ======*/
+section a:hover {
+padding: 4px 8px;
+margin: 4px;
+text-decoration-line: underline;
+text-decoration-color: #0056b3;
+
+}
+
+
 
 .service, .service-detail, .gallery-item, blockquote, form {
     margin-bottom: 20px;
 }
 
+
+/*  ---  SERVICES  ---  */
 #services {
-margin: 10px 20px;
+margin: 20px 35px;
 
 }
 
 .service-home {
 background-color: #f9f9f9;
-padding: 2px;
+/*width: 380px;*/
+padding: 15px;
 margin: 4px 2px;
 display: inline-block;
 vertical-align: text-top;
@@ -126,13 +132,62 @@ border-color:#0056b3;
 border-radius: 15px;
 }
 
-.service-detail img, .gallery-item img, .gallery-link img {
+.service-detail img, .gallery-item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-/*======= form ======*/
+/*  ---  GALLERY HOME PAGE  ---  */
+
+#gallery-link {
+background-image: url('Images/bedroom2.jpg');
+background-size: cover;
+margin: auto;
+width: 90%;
+height: 100vh;
+
+
+}
+
+#gallery-link p {
+    position: relative;
+    z-index: 1;
+    top: 60%;
+    /*transform: translateY(-50%);*/
+}
+/*
+@media screen and (min-width: 501px) {
+    #gallery-link {
+        background-image: url('Images/bedroom2.jpg');
+        background-position: center;
+        background-size: 1200px;
+        width:  1200px;
+        height:  720px;
+        margin: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #gallery-link {
+        background-image: url('Images/bedroom2.jpg');
+        background-position: center;
+        background-size: 900px;
+        width:  360px;
+        height:  440px;
+        margin: auto;
+        background-repeat: no-repeat;
+    }
+}  */
+
+/*  ---  ABOUT PAGE ---  */
+
+#about {
+    margin: 20px 20px;
+}
+
+/*  ---  CONTACT/FORM PAGE---  */
 
 form {
     display: flex;
@@ -167,8 +222,6 @@ form button {
 form button:hover {
     background-color: #003f8a;
 }
-
-/*======= footer ======*/
 
 footer {
     background-color: #0056b3;
